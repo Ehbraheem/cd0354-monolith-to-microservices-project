@@ -1,6 +1,4 @@
-FROM node:18.4.0-alpine3.16
-
-RUN apk add --no-cache --virtual bash
+FROM node:13
 
 # Create app directory
 WORKDIR /usr/src/app
